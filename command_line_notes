@@ -1,0 +1,51 @@
+Command Line Interface ("Terminal", "Shell") Notes
+
+pwd -> Present Working Directory
+
+cd -> move to home directory
+
+cd .. -> move one directory ABOVE
+
+cd ../.. -> move 2 directories above
+
+cd ../x -> move 1 directory above then into directory x 
+
+cd - -> move to previous directory present
+
+~ -> shorthand for "home directory" when typing out absolute filepath
+
+mv x y -> move target x to location y. Also used for renaming. 
+
+cp x y -> copy target x to location y
+
+rm x -> remove target x. Does not work on directories
+
+rm -r dir  -> remove directory dir. Muss use the -r option
+
+rm -i x -> remove target x but with a prompt before removal executed. 
+
+* = wildcard matches zero or more characters in a filename, so *.txt matches all files ending in .txt. 
+
+? = matches any single character in a filename, so ?.txt matches a.txt but not any.txt. Can be chained together.   
+
+cat = reads out simple text file onto CLI "cat example.txt"
+
+touch x = create a blank txt file named "x"
+
+sort = sort alphabetically
+
+sort -n = sort numerically, smallest to largest
+
+sort -nr = sort numerically, largest to smallest
+
+sort x > y = the sorted output of file x will be put into new created file y
+
+> x = output into new file x or overwrite completely existing file x
+
+>> = sends output result and appends to end of existing file x, or creates new file x.  
+
+
+x | y | z = run x, then with output x run y, then with output of y run z
+
+ 
+
