@@ -159,9 +159,20 @@ false || alert("printed");
 ...........
 
 AND “&&” finds & returns the first falsy value
-    
+
 alert( 1 && 0 ); // 0
 
 When all values are truthy, the last value is returned:
 
 alert( 1 && 2 && 3 ); // 3, the last one
+
+
+
+
+-----
+
+USEFUL FUNCTIONS
+
+function random(number) {
+  return Math.floor(Math.random() * number);
+}
